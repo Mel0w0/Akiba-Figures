@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Gravitas+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    padding:  0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(#1D0568 62%, #2A0798 79%, #541FFA 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img_izq, .img_der{
+    position: absolute;
+    opacity: 50%;
+    background-blend-mode: screen;
+}
+
+.img_izq{
+    display: flex;
+    left: 0;
+}
+
+.img_der{
+    display: flex;
+    right: 0;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+    padding: 30px;
+    background: linear-gradient(#1D0568, #390ACE);
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: "Gravitas One", serif;
+    color: #88ffc3;
+    text-shadow: 1px 1px 10px;
+}
+
+.titulo_productos{
+    text-align: center;
+    margin: 40px;
+    font-size: 24px;
+    font-family: "Gravitas One", serif;
+    color: #F388FF;
+    text-shadow: 1px 1px 10px;
+}
+
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 130px;
+}
+
+.contaier_productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    max-height: 1009px;
+    overflow: hidden;
+    background: linear-gradient(#ffffff73, #ffffff11);
+    backdrop-filter: blur(5px);
+    border-radius: 53px;
+    gap: 20px;
+    padding: 30px 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+    scroll-behavior: smooth;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    width: 196px;
+    height: 258px;
+    border-radius: 18px;
+    background:linear-gradient(#2A2466, #5448CC);
+    padding: 5px;
+    box-shadow: inset -4px -6px 4px #B881FF, 0px 4px 12px #8a30ff;
+}
+
+.contenedor_imagen{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 176px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.contenedor_imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor_card--info{
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    height: auto;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Gotu", sans-serif;;
+}
+
+.contenedor_card--valor{
+    display: flex;
+    gap: 120px;
+    margin-top: 2px;
+}
+
+.boton_borrar, .boton_borrar-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+}
+
+.titulo_formulario{
+    margin: 30px;
+    font-family: "Gravitas One", serif;
+    color: #88D3FF;
+    text-shadow: 1px 1px 10px;
+}
+
+.container_formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+    height: 960px;
+    background: #ffffff1f;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.img_formulario{
+    height: auto;
+    width: 90%;
+}
+
+.input_nombre, .input_precio, .input_imagen{
+    width: 380px;
+    height: 50px;
+    border-radius: 35px;
+    padding: 0 24px;
+    font-size: 15px;
+    font-family: "Gotu", sans-serif;
+    color: #ffffff;
+    background: #291d3b8f;
+    border: none;
+}
+
+.contenedor_boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.boton_submit, .boton_reset{
+    width: 185px;
+    height: 55px;
+    border-radius: 18px;
+    border: none;
+    font-size: 17px;
+    font-family: "Gotu", sans-serif;
+}
+
+.boton_submit{
+    color: #ffffff;
+    background: #333A8E;
+    box-shadow:  inset -3px -3px 6px #81C2FF, 0 4px 25px #47A6FF;
+}
+
+.boton_reset{
+    color: #ffffff;
+    background: #7292DE;
+    box-shadow: inset -3px -3px 6px #b3daff;
+}
+
+.titulo_footer{
+    font-size: 15px;
+    color: #1D0568;
+    font-family: "Gotu", sans-serif;
+}
+
+.container_footer{
+    display: flex;
+    align-self: center;
+    height: 100px;
+    width: auto;
+    padding: 20px;
+}
+
+@media (max-width: 770px) {
+
+    .main_container{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .container_formulario{
+        margin: 50px;
+    }
+
+    .contaier_productos{
+        max-width: 500px;
+        max-height: 550px;
+    }
+} 

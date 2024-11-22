@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav>    
+            <h1 class="titulo">Akiba Figures</h1>
+            <img>
+        </nav>
+    </header>
+    <div class="fondo">
+        <img class="img_izq" src="./assets/akiba_izq.png" alt="ciudad Akihabara">
+        <img class="img_der" src="./assets/akiba_der.png" alt="ciudad Akihabara">
+    </div>
+    <main class="main_container">
+        <section>
+            <h2 class="titulo_productos">Nuevos Productos</h2>
+            <div class="contaier_productos" data-productos>
+                <!-- <div class="contenedor_imagen">
+                    <img src="https://i.postimg.cc/9FbVhT11/mi-vecino-totoro.jpg" alt="imagen figura producto" />
+                </div>
+                <div class="contenedor_card--info">
+                        <p>Mi vecino Totoro - Studio Ghibli. Figura Zuoban studio resina</p>
+                        <div class="contenedor_card--valor">
+                            <p>$501.03</p>
+                            <button class="boton_borrar" data-id="${id}">
+                                <img src="/assets/basura.png" alt="Eliminar">
+                            </button>
+                        </div>
+                </div> -->
+            </div>
+        </section>
+        <section>
+            <form class="container_formulario" data-formulario>
+                <h2 class="titulo_formulario">Agregar Producto:</h2>
+                <input data-nombre class="input_nombre" placeholder="nombre..." type="text">
+                <input data-precio class="input_precio" placeholder="precio..." type="text">
+                <input data-imagen class="input_imagen" placeholder="imagen..." type="text">
+                <div class="contenedor_boton">
+                    <button type="submit" class="boton_submit">Enviar</button>
+                    <button type="reset" class="boton_reset">Limpiar</button>
+                </div>
+                <img class="img_formulario" src="./assets/gojo.png" alt="Gojo de Jujutsu Kaisen">
+            </form>
+        
+        </section>
+    </main>
+    <footer class="container_footer">
+        <p class="titulo_footer">Desarrollado por Melissa Ariza</p>
+    </footer>
+    <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>

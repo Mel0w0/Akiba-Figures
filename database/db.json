@@ -1,0 +1,58 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "nombre": "Mi vecino Totoro - Studio Ghibli. Figura resina - Zuoban studio",
+            "precio": "$501.03",
+            "imagen": "https://i.postimg.cc/9FbVhT11/mi-vecino-totoro.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Madara Uchiha HQS - Naruto Shippuden. Figura escala Tsume",
+            "precio": "$1300",
+            "imagen": "https://i.postimg.cc/mDypH3P5/madara-uchiha.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Roronoa Zoro Demon Ashura Figure - One Piece.",
+            "precio": "$773.74",
+            "imagen": "https://i.postimg.cc/Qt8kv2Mf/roronoa-zoro.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Test Type-01 - Evangelion. Prime 1 studio",
+            "precio": "$1350",
+            "imagen": "https://i.postimg.cc/g0SHFM6d/type-one.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Familia Gengar - Pokemon. Fantasy studio resina",
+            "precio": "$490",
+            "imagen": "https://i.postimg.cc/hjQTFKBb/gengar.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Deadpool: Rompiendo la cuarta pared. Goodsmile Company",
+            "precio": "$1070",
+            "imagen": "https://i.postimg.cc/fTDtCcJv/deadpool.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Mikasa x Levi Vs Titan Fundador - Attack on Titan. LC Studio",
+            "precio": "$574.89",
+            "imagen": "https://i.postimg.cc/D0B2BbMC/mikasa-x-levi.jpg"
+        },
+        {
+            "id": 8,
+            "nombre": "Kratos - God of War Sideshow",
+            "precio": "$400",
+            "imagen": "https://i.postimg.cc/YqP70kKm/kratos.jpg"
+        },
+        {
+            "id": 9,
+            "nombre": "Batman cordura Versión. Color David Finch Diorama Estatua con Placa",
+            "precio": "$2900",
+            "imagen": "https://i.postimg.cc/c4gjDn2r/batman-cordura.jpg"
+        }
+    ] 
+}
